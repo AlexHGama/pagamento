@@ -1,0 +1,108 @@
+.modal{
+  position: fixed;
+  height: 355px;
+  z-index: 2000;
+  background-color: rgb(73, 4, 36);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  top: 220px;
+  margin: 50px 254px auto;
+  max-width: 70%;
+  min-width: 450px;
+  border-radius: 10px;
+  width: 61%;  
+}
+    
+.fechar{
+  border-radius: unset;
+  color: #fff;
+  font-weight: 700;
+  margin-top: 0;
+  min-width: unset;
+  padding: 5px 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 40px;
+}
+    
+.textmodal { 
+  text-align: center;
+  font-style: italic;
+  font-weight: 600; 
+}
+    
+.modal input{
+  margin-bottom: 15px;
+  min-width: 273px;
+  width: 80%;
+  padding: 12px;
+  border-radius: 5px;  
+}
+    
+    
+.modal select {
+  cursor: pointer;
+  font-family: var(--font_primary_family);
+  font-weight: 800;
+  margin-bottom: 25px;
+  max-width: 331px;
+  min-width: 300px;
+  width: 0.7%;
+  padding: 5px;
+  border-radius: 5px;
+}
+    
+.modal button{
+  margin-bottom: 15px;
+  min-width: 100px;
+  color: rgb(14, 7, 7);
+  width: 86%;
+  padding: 12px;
+  border-radius: 5px;
+}
+    
+.texmodal {
+  color: #c2ed92;
+}
+    
+.botaomodal {
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 700;
+  margin: 0px 0 30px;
+  min-width: 350px;
+  padding: 0px;
+  transition: -webkit-filter .2s;
+  transition: filter .2s;
+  transition: filter .2s,-webkit-filter .2s;
+  width: 50%;
+}
+    
+.p{
+  line-height: 23.5px;
+  margin: unset;
+  margin-left: 0px;
+}
+  
+    
+  @media screen and (max-width: 500px) {  
+    
+    .modal {
+      justify-content: unset;
+      max-width: unset;
+      min-width: 450px;
+      width: 100%;
+      align-items: center;
+      background-color: rgb(193, 189, 198);
+      display: flex;
+      flex-direction: column;
+      margin: 80px auto auto; 
+    }
+    
+}
