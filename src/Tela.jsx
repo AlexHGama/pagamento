@@ -25,7 +25,7 @@ export function Tela(props){
       .catch(erro=> {
       console.log(erro);
       })
-  }, []);
+  } , []);
   
   
 
@@ -140,7 +140,7 @@ export function Tela(props){
       <header className="listatodos">
       
         <div className="container1"></div> 
-          {listaItem.map((item) => {
+         {listaItem.map((item) => {
            return (
             
             <div className="usuario" key={item.id}>
@@ -168,7 +168,7 @@ export function Tela(props){
               </div>
             </div>
           )})}         
-    </header>
+      </header>
     }
      
     {
